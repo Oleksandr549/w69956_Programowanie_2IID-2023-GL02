@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+
+     
+
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    <form class="form" name="form" novalidate>
+        <div class="control">
+            <label>Imie </label>
+            <input type="text" id="name" name="name">
+            <span class="error"></span>
+        
+        </div>
+        <div class="control">
+            <label>Nazwisko </label>
+            <input type="text" id="surname" name="surname">
+        </div>
+        <div class="control">
+            <label>Email: </label>
+            <input type="email" name="email"/>
+            <span class="error"></span>
+        </div>
+        <div class="control">
+            <label>Hasło: </label>
+            <input type="password" name="password">
+            <span class="error"></span>
+        </div>
+        <div class="control">
+            <label>Potwórz Hasło: </label>
+            <input type="password" name="confirm-password">
+            <span class="error"></span>
+        </div>
+
+        <div class="control actions">
+            <input type="submit" value="Zapisz">
+        </div>
+    </form>
+    <table>
+        <tr>
+            <th>Ime</th>
+            <th >Nazwisko</th>
+       
+          </tr>
+          <tr>
+            <td id="ImieTable">1</td>
+            <td id="nazwiskoTable">2</td>
+            
+          </tr>
+    </table>
+</div>
+</body>
+
+<script src="js.js" defer></script>
+
+</html>
